@@ -1,0 +1,41 @@
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Compiled executables and installers
+*.exe
+
+# Example DANFEs (contain real fiscal data - LGPD)
+DanfeExemplos/
+
+# Installer tools (large binaries)
+installer_tools/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+*.whl
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+.tmp.driveupload/
+
+# Logs
+*.log
